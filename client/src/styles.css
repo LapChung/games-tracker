@@ -1,0 +1,63 @@
+.main {
+  background: url(./assets/main-background.jpg);
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.title {
+  font-size: 35px;
+  padding-top: 40px;
+  font-weight: 900;
+  font-family: Impact;
+  color: white;
+}
+.description {
+  font-size: 20px;
+  padding-top: 50px;
+  font-family: monospace;
+  font-weight: 300;
+  color: gray;
+}
+.main .account .sign-in {
+  padding-top: 55px;
+  background-color: transparent;
+  border-top: 0 none;
+  border-bottom: 0 none;
+}
+.main .account .create {
+  padding-top: 55px;
+  background-color: transparent;
+  border-top: 0 none;
+  border-bottom: 0 none;
+}
+.apex-container {
+  padding-top: 34px;
+  transition: all 0.2s ease-in-out;
+}
+.apex-container:hover {
+  transform: scaleX(1.05);
+}
+.apex-pic {
+  height: 500px;
+  width: 250px;
+}
+.apex-description {
+  position: absolute;
+  bottom: 70px;
+  left: 45px;
+  color: white;
+  font-family: Marker Felt;
+  font-weight: 300;
+  font-size: 35px;
+}
+.apex-button {
+  position: absolute;
+  left: 85px;
+  top: 480px;
+  background-color: transparent;
+}
+.r6nav {
+  height: 40px;
+}
